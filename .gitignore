@@ -1,0 +1,27 @@
+# Ignore Python virtual environments
+myenv/
+venv/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore log files
+*.log
+
+# Ignore configuration files
+.env
+*.ini
+*.cfg
+
+# Ignore build directories
+/build/
+/dist/
+/__pycache__/
+
+# Ignore models directory
+.models/
